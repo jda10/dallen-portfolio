@@ -25,6 +25,15 @@
 }
 
 
+.MuiButtonGroup-groupedText{
+  text-decoration: none;
+}
+
+canvas{
+  margin: auto;
+  outline : 1px solid black;
+}
+
 
 
 #navigator{

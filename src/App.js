@@ -1,6 +1,8 @@
 import NavBar from '../src/components/NavBar'
 import About from '../src/components/About'
+import PDFViewer from '../src/components/Resume';
 import './App.css';
+import pdf from '../src/resume.pdf';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,6 +23,10 @@ function App() {
           <Route path="/contact">
             <NavBar></NavBar>
             <Contact></Contact>
+          </Route>
+          <Route path="/resume">
+            <NavBar></NavBar>
+            <PDFViewer pdf={pdf}></PDFViewer>
           </Route>
           <Route path="/">
             <NavBar/>
