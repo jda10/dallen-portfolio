@@ -10,9 +10,9 @@ const About = () => {
     return(
         <div id="about">
             <h4>Dallen Atchley</h4>
+            <h5>Full Stack Software Engineer</h5>
             <p>Hi, My name is Dallen Atchley</p>
             <p>Connect with me via the links below</p>
-            <p>Please note that this is still a work in progress</p>
             <a href="https://www.instagram.com/dallenatchley/">
             <InstagramIcon></InstagramIcon>
             </a>
